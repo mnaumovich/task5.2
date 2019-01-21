@@ -1,6 +1,7 @@
 package poddevalov.massiv;
 
 public class Task01 {
+	// давайте называть всетаки ангийскими словами, всеравно придется (array)
 	public static int[] fibonachiMassiv(int razmer) {
 		int[] fib = new int[razmer];
 		int x1 = 0;
@@ -16,7 +17,8 @@ public class Task01 {
 		}
 		return fib;
 	}
-
+	
+	//out | print
 	public static void vuvodMassiv(int[] mas) {
 		for (int j = 0; j < mas.length; j++) {
 			System.out.print(mas[j] + " ");
