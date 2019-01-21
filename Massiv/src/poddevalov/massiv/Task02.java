@@ -17,6 +17,7 @@ public class Task02 {
 		int min;
 		int max;
 		min = max = ish[0];
+		//Arrays.sort
 		for (int j = 0; j < ish.length; j++) {
 			if (ish[j] < min)
 				min = ish[j];
